@@ -50,17 +50,19 @@ body {
 }
 
 #menu {
-    width: 100px;
+    width: 100%;
     background: gray;
     margin: 5px 5px 5px 0px;
-
 }
 
 #block_bottom_menu {
-    width: 20%;
+    width: 100%;
     height: 50px;
     background: gray;
     margin: 5px 5px 5px 0px;
+
+нужно прикрепить к низу, хз как
+
 
 }
 
@@ -72,23 +74,33 @@ ul {
 #left {
     width: 20%;
     margin: 5px 5px 5px 5px;
-    /*float: right;*/
 }
 
 #center {
-    width: 80%;
+    width: 60%;
     margin: 5px 5px 5px 5px;
-    float: right;
+    /*float: right;*/
 }
-.t_block {
-    width: 40%;
-    height: 80px;
+#top_block_center {
+    width: 100%;
+    height: auto;
     background: lightgray;
     margin: 5px 5px 5px 0px;
     /*flex-wrap: wrap;*/
     float:left;
 }
 
+.t_block {
+    width: 45%;
+
+    background: lightgray;
+    margin: 5px 5px 5px 0px;
+    /*flex-wrap: wrap;*/
+    float:left;
+}
+#block_center{
+    width: 100%;
+}
 
 .block_center {
     width: 50px;
@@ -99,30 +111,13 @@ ul {
     float:left;
 
 }
-
-.content-flex-container {
-
+#bottom_block_center {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    flex-wrap: nowrap;
 
 }
 
-.content-flex-item {
-}
 
-/*.flex-container {*/
-    /*display: flex;*/
-    /*flex-direction: row;*/
-    /*!*justify-content: center;*!*/
-    /*justify-content: space-between;*/
-    /*!*flex-direction: row-reverse;*!*/
-    /*!*flex-direction: column;*!*/
-    /*!*flex-direction: column-reverse;*!*/
-
-/*}*/
-/*.flex-item {*/
-    /*margin: 10px;*/
-    /*border: solid black 1px;*/
-    /*width: 30px;*/
-    /*height: 50px;*/
-
-
-/*}*/
