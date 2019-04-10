@@ -19,7 +19,7 @@ body {
     height: 20px;
     background: gray;
     position: relative;
-    margin: 5px 5px 5px 0px;
+    margin: 5px 5px 5px 0;
 
 }
 
@@ -28,7 +28,7 @@ body {
     height: 20px;
     background: gray;
     position: relative;
-    margin: 5px 5px 5px 0px;
+    margin: 5px 5px 5px 0;
 
 }
 
@@ -60,11 +60,16 @@ body {
     height: 50px;
     background: gray;
     margin: 5px 5px 5px 0px;
-
-нужно прикрепить к низу, хз как
-
+}
+/*нужно прикрепить к низу, хз как*/
+p {
 
 }
+
+#list {
+    list-style-type: square;
+}
+
 
 ul {
     list-style-type: none;
