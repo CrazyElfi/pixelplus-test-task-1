@@ -45,7 +45,24 @@ hr {
     background-color: darkslateblue; /* Цвет линии для браузера Firefox и Opera */
     height: 4px; /* Толщина линии */
 }
+/*#container-test {*/
+/*    !*border: 1px solid black;*!*/
+/*    !*display: flex;*!*/
+/*    !*flex-direction: row;*!*/
+/*}*/
+/* #left-test{*/
+/*     background-color: red;*/
+/*     width: 30%;*/
+/*     float:left;*/
+/* }*/
+/*#right-test{*/
+/*    !*float: left;*!*/
+/*    width: 70%;*/
+/*    float:right;*/
 
+/*    background-color: green;*/
+
+/*}*/
 #content {
     width: 100%;
     height: 60%;
@@ -57,7 +74,7 @@ hr {
 #menu {
     width: 100%;
     background: gray;
-    margin: 5px 5px 5px 0;
+    /*margin: 5px 5px 5px 0;*/
 }
 
 #block_bottom_menu {
@@ -78,24 +95,26 @@ p {
 
 #menu_1{
     list-style-type: none;
-    padding: 10px 5px 5px 5px;
+    margin: 0;
+    padding: 0;
+    /*padding: 10px 5px 5px 5px;*/
 }
 
 #left {
     width: 20%;
-    margin: 5px;
+    /*margin: 0px;*/
 }
 
 #center {
-    width: 60%;
-    margin: 5px 5px 5px 5px;
+    width: 100%;
+    /*margin: 5px 5px 5px 5px;*/
     /*float: right;*/
 }
 #top_block_center {
     width: 100%;
     height: auto;
     background: lightgray;
-    margin: 5px 5px 5px 0;
+    /*margin: 5px 5px 5px 0;*/
     /*flex-wrap: wrap;*/
     float:left;
 }
@@ -128,10 +147,12 @@ p {
 }
 #footer {
     width: 100%;
+    height: 180px;
 }
 .block_footer {
     background: dimgray ;
     width: 32%;
+    height: 180px;
     float:left;
     margin: 5px 5px 5px 0;
 }
@@ -148,10 +169,17 @@ p {
     float: left;
 
 }
+
+.block_footer_parth3 {
+    width: 32%;
+    float: left;
+    height: inherit;
+}
+
 .f-3 {
     background: dimgray ;
     width: 100%;
-    height: 49%;
+    height: 44%;
     margin: 5px 5px 5px 10px;
     padding-top: 5px;
     float: left;
